@@ -13,8 +13,8 @@ Welcome to Jetle , a thrilling word-guessing game where you'll test your knowled
 
 ### How to setup
 
-> git clone https://github.com/dorian3343/Jetle
-> cd Jetle
-> npm install
->npm start
-And open your favourite browser to 'http://localhost:3000/'
+- git clone https://github.com/dorian3343/Jetle
+- cd Jetle
+- npm install
+- npm start
+- open your favourite browser to 'http://localhost:3000/'
