@@ -1,0 +1,25 @@
+/* GameBoard.css */
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.category-style {
+    padding: 10px;
+    width: 90px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matched-category {
+    background-color: green;
+    color: white;
+}
+
+.partial-match-category {
+    background-color: #eadd65;
+    color: black;
+}

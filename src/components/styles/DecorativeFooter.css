@@ -1,0 +1,15 @@
+/* DecorativeFooter.css */
+
+.decorative-footer-container {
+    background-color: #7d4372;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer-text {
+    margin: 0;
+}

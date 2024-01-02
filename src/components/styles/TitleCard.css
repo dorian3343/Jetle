@@ -1,0 +1,14 @@
+/* TitleCard.css */
+
+.title-card-container {
+    text-align: center;
+}
+
+.header-style {
+    font-size: 4em;
+    margin: 0;
+}
+
+.subtitle-style {
+    font-size: 1.5em;
+}
