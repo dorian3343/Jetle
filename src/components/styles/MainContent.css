@@ -5,6 +5,7 @@
     min-height: 84vh;
     padding: 20px;
     flex-direction: column;
+    overflow: scroll;
 }
 
 
@@ -17,6 +18,7 @@
     width: 400px;
     display: flex;
     flex-direction: column;
+    max-width: 90vw;
 }
 .input2Style {
     padding: 10px;
@@ -30,6 +32,7 @@
     overflow-y: auto;
     max-height: 120px;
     z-index: 999;
+    max-width: 90vw;
 }
 .modalContainerStyle {
     position: fixed;
@@ -62,4 +65,3 @@
     cursor: pointer;
     margin-top: 10px;
 }
-
