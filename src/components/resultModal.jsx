@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+
 const handleRefreshClick = () => {
     window.location.reload();
 };
+const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+        handleRefreshClick();
+    }
+};
 const ResultModal = ({ answer, count}) => {
+    useEffect(() => {
+        document.addEventListener("keydown", handleKeyPress);
+    }, []);
     return (
-        <div className="modalContainerStyle">
+        <div className="modalContainerStyle"  onKeyDown={(e) => handleKeyPress(e)}>
             <h1 className="headingStyle">
                 {count >= 7 ? "You lost!" : "You won!"}
             </h1>
