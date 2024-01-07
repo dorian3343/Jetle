@@ -188,7 +188,7 @@ const hints = [
         "Boeing",
         "A/G",
         "Rotary Wing",
-        2, 2, "1",
+        "N/A", 2, "1",
         ah64,
         "NATO"
     ),
@@ -233,7 +233,7 @@ const hints = [
         "Boeing",
         "Transport",
         "Rotary Wing",
-        2, 2, "2",
+        "N/A", 2, "2",
         ch47,
         "NATO"
     ),
