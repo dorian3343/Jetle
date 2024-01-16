@@ -1,26 +1,33 @@
-import  f15 from '../components/aircraftImages/f15.jpg'
-import su27 from '../components/aircraftImages/su27.jpg'
-import f22 from '../components/aircraftImages/f22.jpg'
-import a10 from '../components/aircraftImages/a10.jpg'
-import f16 from '../components/aircraftImages/f16.jpg'
-import b2 from '../components/aircraftImages/b2.jpg'
-import mig29 from '../components/aircraftImages/mig29.jpg'
-import ah64 from '../components/aircraftImages/ah64.jpg'
-import f35 from '../components/aircraftImages/f35.jpg'
-import su35 from '../components/aircraftImages/su35.jpg'
-import fa18 from '../components/aircraftImages/fa18.jpg'
-import typhoon from '../components/aircraftImages/typhoon.jpg'
-import ch47 from '../components/aircraftImages/ch47.jpg'
-import meteor from '../components/aircraftImages/meteor.jpg'
-import me262 from '../components/aircraftImages/me262.jpg'
-import p80 from '../components/aircraftImages/p80.jpg'
-import mig15 from '../components/aircraftImages/mig15.jpg'
-import f86 from '../components/aircraftImages/f86.JPG'
-import attacker from '../components/aircraftImages/attacker.jpg'
-import gripen from '../components/aircraftImages/gripen.jpg';
-import draken from '../components/aircraftImages/draken.jpg';
-import viggen from '../components/aircraftImages/viggen.jpg';
-
+import f15 from '../Assets/aircraftImages/f15.jpg';
+import su27 from '../Assets/aircraftImages/su27.jpg';
+import f22 from '../Assets/aircraftImages/f22.jpg';
+import a10 from '../Assets/aircraftImages/a10.jpg';
+import f16 from '../Assets/aircraftImages/f16.jpg';
+import b2 from '../Assets/aircraftImages/b2.jpg';
+import mig29 from '../Assets/aircraftImages/mig29.jpg';
+import ah64 from '../Assets/aircraftImages/ah64.jpg';
+import f35 from '../Assets/aircraftImages/f35.jpg';
+import su35 from '../Assets/aircraftImages/su35.jpg';
+import fa18 from '../Assets/aircraftImages/fa18.jpg';
+import typhoon from '../Assets/aircraftImages/typhoon.jpg';
+import ch47 from '../Assets/aircraftImages/ch47.jpg';
+import meteor from '../Assets/aircraftImages/meteor.jpg';
+import me262 from '../Assets/aircraftImages/me262.jpg';
+import p80 from '../Assets/aircraftImages/p80.jpg';
+import mig15 from '../Assets/aircraftImages/mig15.jpg';
+import f86 from '../Assets/aircraftImages/f86.JPG';
+import attacker from '../Assets/aircraftImages/attacker.jpg';
+import gripen from '../Assets/aircraftImages/gripen.jpg';
+import draken from '../Assets/aircraftImages/draken.jpg';
+import viggen from '../Assets/aircraftImages/viggen.jpg';
+import rafale from  '../Assets/aircraftImages/rafale.jpg'
+import b1 from  '../Assets/aircraftImages/b1.jpg'
+import e3 from '../Assets/aircraftImages/e3.jpg'
+import su24 from  '../Assets/aircraftImages/su24.jpg'
+import su25 from  '../Assets/aircraftImages/su25.jpg'
+import kc10 from  '../Assets/aircraftImages/kc10.jpg'
+import ac130 from '../Assets/aircraftImages/ac130.JPG'
+import f14 from '../Assets/aircraftImages/f14.jpg'
 class Aircraft {
     constructor(name, manufacturer, role, wingType, generation, engineCount, crewCount, url, Block) {
         this.Name = name;
@@ -37,6 +44,15 @@ class Aircraft {
 
 const hints = [
     new Aircraft(
+        "F-14 Tomcat",
+        "Northrop Grumman",
+        "A/A - A/G",
+        "Fixed Wing",
+        4, 2, "2",
+        f14,
+        "NATO"
+    ),
+    new Aircraft(
         "Saab JAS 39 Gripen",
         "Saab",
         "A/A - A/G",
@@ -50,7 +66,7 @@ const hints = [
         "Saab",
         "A/A - A/G",
         "Fixed Wing",
-        4, 1, "1",
+        2, 1, "1",
         draken,
         "Neutral",
     ),
@@ -64,7 +80,7 @@ const hints = [
         "Neutral",
     ),
     new Aircraft(
-        "North American F-86 Sabre",
+        "F-86 Sabre",
         "North American Aviation",
         "A/A",
         "Fixed Wing",
@@ -167,7 +183,7 @@ const hints = [
     ),
     new Aircraft(
         "MiG-29 Fulcrum",
-        "Mikoyan",
+        "Mikoyan-Gurevich",
         "A/A - A/G",
         "Fixed Wing",
         4, 2, "1/2",
@@ -237,8 +253,70 @@ const hints = [
         ch47,
         "NATO"
     ),
+new Aircraft(
+    "AC-130 Spectre ",
+    "Lockheed Martin",
+    "A/G",
+    "Fixed Wing",
+    "N/A", 6, "11/13",
+    ac130,
+    "NATO"
+),
+    new Aircraft(
+        "B-1 Lancer",
+        "Rockwell/Bombardier",
+        "Bomber",
+        "Fixed Wing",
+        "N/A", 4, "1/2",
+        b1,
+        "NATO"
+    ),
+    new Aircraft(
+        "E-3 Sentry",
+        "Boeing",
+        "AWACS",
+        "Fixed Wing",
+        "N/A", 4, "4",
+        e3,
+        "NATO"
+    ),
+    new Aircraft(
+        "KC-10 Extender",
+        "McDonnell Douglas",
+        "Tanker",
+        "Fixed Wing",
+        "N/A", 3, 4,
+        kc10,
+        "NATO"
+    ),
+    new Aircraft(
+        "Su-25 Frogfoot",
+        "Sukhoi",
+        "A/G",
+        "Fixed Wing",
+        "N/A", 2, "1",
+        su25,
+        "Soviet"
+    ),
+    new Aircraft(
+        "Su-24 Fencer",
+        "Sukhoi",
+        "A/G",
+        "Fixed Wing",
+        "N/A", 2, "2",
+        su24,
+        "Soviet"
+    ),
+    new Aircraft(
+        "Dassault Rafale",
+        "Dassault Aviation",
+        "A/A - A/G",
+        "Fixed Wing",
+        4, 2, "1/2",
+        rafale,
+        "NATO"
+    )
 ];
-
 
 const defaultHints = new Aircraft("Name", "Manufacturer", "Role", "Wing-Type", "Generation", "Engine-Count", "Crew-Count",'',"Block");
 
