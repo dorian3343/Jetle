@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/GameBoard.css"; // Import the CSS file
+import "./GameBoard.css"; // Import the CSS file
 
 function GameBoard({ objectProp, answerProp }) {
     return (

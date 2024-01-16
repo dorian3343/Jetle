@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/DecorativeFooter.css";
+import "./Footer.css";
 
-function DecorativeFooter() {
+function Footer() {
     return (
         <div className="decorative-footer-container">
             <p className="footer-text">Made by: Dorian Kalaczynski</p>
@@ -9,4 +9,4 @@ function DecorativeFooter() {
     );
 }
 
-export default DecorativeFooter;
+export default Footer;

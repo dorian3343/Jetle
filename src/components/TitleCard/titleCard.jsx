@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/TitleCard.css";
+import "./TitleCard.css";
 
 function TitleCard() {
     return (

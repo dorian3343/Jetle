@@ -1,12 +1,12 @@
-import DecorativeHeader from "./components/decorativeHeader";
-import DecorativeFooter from "./components/decorativeFooter";
-import MainContent from "./components/mainContent";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import MainContent from "./components/Main/mainContent";
 function App() {
   return (
     <div className="App">
-      <DecorativeHeader ></DecorativeHeader>
+      <Header ></Header>
         <MainContent></MainContent>
-        <DecorativeFooter></DecorativeFooter>
+        <Footer></Footer>
     </div>
   );
 }
